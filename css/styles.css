@@ -1,4 +1,4 @@
-/* Page background + text */
+/* pink green and black */
 body {
     background-color: #ffe4ec;
     color: black;
@@ -7,7 +7,8 @@ body {
     padding: 0;
 }
 
-/* Navigation bar */
+/* green and black*/
+
 nav {
     background-color: #ffc0cb; 
     padding: 15px;
@@ -15,7 +16,7 @@ nav {
     border-bottom: 3px solid green;
 }
 
-/* Navigation links */
+
 nav a {
     color: black;
     text-decoration: none;
