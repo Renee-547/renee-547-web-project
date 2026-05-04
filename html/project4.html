@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 - Tiger Beetle Explorer</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../javascript/script.js" defer></script>
+</head>
+<body>
 
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="project2.html">Project 2</a>
+    <a href="project3.html">Project 3</a>
+    <a href="project4.html">Project 4</a>
+</nav>
+
+<header>
+    <h1>Project 4: Tiger Beetle Explorer</h1>
+</header>
+
+<main>
+    <p>Use this interactive page to learn about tiger beetles!</p>
+
+    <form id="beetleForm">
+        <label for="userName">Your name:</label>
+        <input type="text" id="userName">
+
+        <label for="traitChoice">Pick a trait:</label>
+        <select id="traitChoice">
+            <option value="speed">Speed</option>
+            <option value="vision">Vision</option>
+            <option value="color">Color</option>
+        </select>
+
+        <button type="submit">Create Message</button>
+    </form>
+
+    <div id="messageArea"></div>
+</main>
+
+</body>
+</html>

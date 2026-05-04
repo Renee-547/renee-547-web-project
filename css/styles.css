@@ -1,6 +1,6 @@
 /* pink green and black */
 body {
-    background-color: #ffe4ec;
+    background-color: #e6a9bb;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -10,7 +10,7 @@ body {
 /* green and black*/
 
 nav {
-    background-color: #ffc0cb; 
+    background-color: #f5c8cf; 
     padding: 15px;
     text-align: center;
     border-bottom: 3px solid green;
@@ -91,4 +91,118 @@ table {
 th, td {
     border: 1px solid green;
     padding: 10px;
+}
+
+
+form {
+    border: 3px solid green;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #ffeef5;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, button {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    padding: 8px;
+    font-size: 1em;
+}
+
+button {
+    background-color: lightpink;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+#messageArea {
+    border: 3px solid green;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
+
+
+form {
+    border: 3px solid green;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #ffeef5;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+select,
+button {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    padding: 8px;
+    font-size: 1em;
+}
+
+button {
+    background-color: lightpink;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+#messageArea {
+    border: 3px solid green;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    img {
+        width: 100%;
+    }
 }
