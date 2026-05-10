@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f3e8;
+    color: #1f1f1f;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #3b815e;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+
+h1, h2 {
+    margin-bottom: 1rem;
+    color: #3b815e;
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #e7d8b8;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.product-card h2 {
+    margin-bottom: 0.5rem;
+}
+
+form {
+    max-width: 500px;
+    margin-top: 1rem;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: #53bd6d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #204128;
+}
+
+footer {
+    background-color: #1f4d36;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+article {
+    margin-bottom: 1.5rem;
+}
+
+#productSearch {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.high-contrast {
+    background-color: black;
+    color: white;
+}
+
+.high-contrast header,
+.high-contrast footer {
+    background-color: black;
+}
+
+.high-contrast nav a {
+    color: yellow;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
